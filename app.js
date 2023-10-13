@@ -15,7 +15,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL1, process.env.FRONTEND_URL2],
+    origin: [process.env.FRONTEND_URL1, process.env.FRONTEND_URL2, process.env.FRONTEND_URL3],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }),
